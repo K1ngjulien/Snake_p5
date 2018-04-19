@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="./lib/p5.js"></script>
+    <!-- <script src="./lib/p5.dom.js"></script>
+    <script src="./lib/p5.sound.js"></script> -->
+    <script src="./sketch.js"></script>
+
+    <style>
+      body {
+        text-align: center;
+      }
+      div {
+        margin: 1em;
+      }
+      h3 {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SNAKE</h1>
+    <p>Use the arrow keys to controll the snake.</p>
+    <h3 id="score">Score:</h3>
+    <h3>Highscore: <span id="highscore"></span></h3>
+    <div id="canvasContainer"></div>
+    <button id="resetButton">Restart Game</button>
+  </body>
+</html>
